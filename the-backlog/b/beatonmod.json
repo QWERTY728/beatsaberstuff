@@ -1,0 +1,52 @@
+{
+  "coverImageFilename": "Cover.png",
+  "icon": "Cover.png",
+  "components": [
+    {
+      "Type": "AssetsMod",
+      "InstallAction": {
+        "PreloadFiles": [
+          "sharedassets13.assets"
+        ],
+        "Actions": [
+          {
+            "Type": "ReplaceAsset",
+            "FromDataFile": "FullTrail.dat",
+            "Locator": {
+              "TypeIs": "Texture2D",
+              "NameIs": "FullTrail"
+            },
+            "AllowOverwriteName": false,
+            "StepNumber": 1
+          }
+        ]
+      },
+      "UninstallAction": {
+        "PreloadFiles": [
+          "sharedassets13.assets"
+        ],
+        "Actions": [
+          {
+            "Type": "ReplaceAsset",
+            "Locator": {
+              "TypeIs": "Texture2D",
+              "NameIs": "FullTrail"
+            },
+            "StepNumber": 1
+          }
+        ]
+      }
+    }
+  ],
+  "version": "1.0.0",
+  "links": {},
+  "description": [
+    "🅱"
+  ],
+  "gameVersion": "1.3.0p1",
+  "platform": "Quest",
+  "id": "B",
+  "name": "B(🅱)",
+  "author": "doot",
+  "category": "Other"
+}
